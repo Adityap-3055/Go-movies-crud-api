@@ -23,7 +23,7 @@ type Director struct {
 	Lastname  string `json:"lastname"`
 }
 
-// slice of Moives of type Movie stuct
+// slice of Moives of type Movie struct
 var movies []Movie
 
 func getMovies(w http.ResponseWriter, r *http.Request) {
